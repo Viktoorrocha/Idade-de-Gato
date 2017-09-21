@@ -22,6 +22,7 @@
 		779063651F7364020006B76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		779063681F7364020006B76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7790636A1F7364020006B76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779063701F7365580006B76F /* Gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gato.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		7790635D1F7364020006B76F /* Idade de Gato */ = {
 			isa = PBXGroup;
 			children = (
+				779063701F7365580006B76F /* Gato.png */,
 				7790635E1F7364020006B76F /* AppDelegate.swift */,
 				779063601F7364020006B76F /* ViewController.swift */,
 				779063621F7364020006B76F /* Main.storyboard */,
