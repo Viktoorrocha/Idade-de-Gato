@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func descobrirIdade(_ sender: Any) {
+        
+        legendaResultado.text = "Texto alterado"
+        
+    }
+    
+    @IBOutlet weak var legendaResultado: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
