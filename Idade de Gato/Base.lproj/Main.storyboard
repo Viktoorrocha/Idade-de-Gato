@@ -59,6 +59,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="campoIdadeGato" destination="Hw2-Ha-bkD" id="5XB-mm-rHO"/>
                         <outlet property="legendaResultado" destination="imM-Dk-7ve" id="gZU-nY-tfd"/>
                     </connections>
                 </viewController>

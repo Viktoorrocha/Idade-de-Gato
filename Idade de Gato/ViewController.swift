@@ -12,10 +12,13 @@ class ViewController: UIViewController {
     
     @IBAction func descobrirIdade(_ sender: Any) {
         
-        legendaResultado.text = "Texto alterado"
-        
+          let idade = Int(campoIdadeGato.text!)! * 7
+        legendaResultado.text = "A idade do gato é: " +  String(idade)
     }
     
+  
+    
+    @IBOutlet weak var campoIdadeGato: UITextField!
     @IBOutlet weak var legendaResultado: UILabel!
     
 
